@@ -1,0 +1,89 @@
+body {
+    background-image: url(alt.jpg);
+    background-size: cover;
+    margin: 0; padding: 0;
+    font-size: 12px Arial;
+}
+.tt {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    top: 180px; left: 550px;
+    height: 50px;
+    font-size: 30px;
+    color: rgb(253, 249, 249);
+    text-align: center;
+}
+
+.uu {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+
+    top: 100px; left: 450px;
+    height: 50px;
+    font-size: 40px;
+    color: rgb(253, 249, 249);
+    text-align: center;
+}
+.qq {
+    position: absolute;
+    top: 200px; left: 10px;
+    width: 400px; height: 150px;
+    background-image: url(oo.jpg);
+    background-size: contain;
+    color: white;
+    font-size: 30px;
+    border: none;
+}
+
+.menu {
+    height: 60px;
+    list-style: none;
+    padding: 10px ;
+    position: absolute;
+    top: 0px;
+}
+.menu li {
+    float: left;
+    width: 200px;
+}
+.menu li a:link, .menu li a:visiteD {
+    display: block;
+    color: white;
+    background: rgb(192, 192, 192);
+    padding: 10px 35px ;
+    border-right: 1px solid white;
+    text-align: center;
+    text-decoration: none;
+}
+.menu .sousmenu {
+    list-style-position: none;
+    display: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+}
+.menu .sousmenu li {
+    float: none;
+    color: aqua;
+    padding: 0;
+    border-top: 1px solid transparent;
+    border-right: solid transparent;
+}
+.menu .sousmenu li a:lin, .menu  li  a:visite {
+    display: block;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(235, 235, 235);
+}
+.menu .sousmenu li a:hover {
+    background-color: rgb(8, 8, 8);
+
+}
+.menu li:hover .sousmenu {
+    display: block;
+    background-color: rgb(252, 252, 252);
+    font-size: 20px;
+}
